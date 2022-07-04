@@ -67,7 +67,7 @@ function AppelAPI(long, lat) {
                 if (now === 24){
                     now = 0
                 }
-                e.childNodes[1].innerText = "jour suivant " + i //tableau de lundi-mardi-mercredi...
+                e.childNodes[1].innerText = "jour suivt " //tableau de lundi-mardi-mercredi...
                 e.childNodes[3].innerText = Math.trunc(data.daily[i].temp.day) + "°"
             });
 
